@@ -25,9 +25,9 @@ public class ActorAdapter extends ArrayAdapter<String> {
     public View getView(int position, View convertView, ViewGroup parent) {
         LayoutInflater inflater = (LayoutInflater) context
                 .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View rowView = inflater.inflate(R.layout.listview, parent, false);
+        View rowView = inflater.inflate(R.layout.listView, parent, false);
         TextView mActorTextView = (TextView) rowView.findViewById(R.id.actor);
-        TextView mMovieTextView = (TextView) rowView.findViewById(R.id.movie);
+        TextView mMovieTextView = (TextView) rowView.findViewById(R.id.dob);
         TextView mAwardTextView = (TextView) rowView.findViewById(R.id.award);
         textView.setText(values[position]);
         // change the icon for Windows and iPhone
