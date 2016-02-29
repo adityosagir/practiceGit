@@ -7,7 +7,7 @@ public class Actor {
 
     private String mName;
     private String mDOB;
-    private int mOscarsWon;
+    private String mOscarsWon;
 
     public Actor(String name, String DOB, String oscarsWon) {
         mName = name;
@@ -32,7 +32,7 @@ public class Actor {
         mName = name;
     }
 
-    public int getOscarsWon() {
+    public String getOscarsWon() {
         return mOscarsWon;
     }
 
