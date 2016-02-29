@@ -25,7 +25,7 @@ public class ActorAdapter extends ArrayAdapter<String> {
     public View getView(int position, View convertView, ViewGroup parent) {
         LayoutInflater inflater = (LayoutInflater) context
                 .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View rowView = inflater.inflate(R.layout.listView, parent, false);
+        View rowView = inflater.inflate(R.layout.activity_main, parent, false);
         TextView mActorTextView = (TextView) rowView.findViewById(R.id.actor);
         TextView mMovieTextView = (TextView) rowView.findViewById(R.id.dob);
         TextView mAwardTextView = (TextView) rowView.findViewById(R.id.award);
